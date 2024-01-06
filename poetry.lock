@@ -1,4 +1,25 @@
 [[package]]
+name = "flake8"
+version = "7.0.0"
+description = "the modular source code checker: pep8 pyflakes and co"
+category = "main"
+optional = false
+python-versions = ">=3.8.1"
+
+[package.dependencies]
+mccabe = ">=0.7.0,<0.8.0"
+pycodestyle = ">=2.11.0,<2.12.0"
+pyflakes = ">=3.2.0,<3.3.0"
+
+[[package]]
+name = "mccabe"
+version = "0.7.0"
+description = "McCabe checker, plugin for flake8"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "prompt"
 version = "0.4.1"
 description = "Library for prompting input on the command line."
@@ -6,10 +27,30 @@ category = "main"
 optional = false
 python-versions = ">=3.3"
 
+[[package]]
+name = "pycodestyle"
+version = "2.11.1"
+description = "Python style guide checker"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[[package]]
+name = "pyflakes"
+version = "3.2.0"
+description = "passive checker of Python programs"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "77ddf2df65894867004408b8b225878c2b86d62f04d464e06400caacf189df15"
+content-hash = "7543ed679c8afcc8b8f3c4d6b2205fd64e1e8d6601e39f44450fe895ae602c9b"
 
 [metadata.files]
+flake8 = []
+mccabe = []
 prompt = []
+pycodestyle = []
+pyflakes = []
