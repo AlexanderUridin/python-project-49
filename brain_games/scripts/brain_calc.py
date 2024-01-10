@@ -12,7 +12,7 @@ def welcome_user():
         print(f'Hello, {name}!')
 
 
-def brain_even():
+def brain_calc():
     i = 0
     while i < 3:
         number1 = random.randint(1, 100)
@@ -53,7 +53,7 @@ def main():
     print('Welcome to the Brain Games!')
     welcome_user()
     print('What is the result of the expression?')
-    brain_even()
+    brain_calc()
 
 
 if __name__ == '__main__':
