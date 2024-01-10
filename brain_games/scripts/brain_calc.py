@@ -22,7 +22,6 @@ def brain_even():
         result = f'{number1} {op} {number2}'
         print(f'Question: {result}')
         answer = prompt.integer('Your answer: ')
-        incorrect = f"'{answer}' is wrong answer ;(."
         end = f"Let's try again, {name}!"
         if op == '+':
             result = number1 + number2
