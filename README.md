@@ -13,3 +13,7 @@
 ### Brain-calc:
 
 [![asciicast](https://asciinema.org/a/Oa8NvN7dRnEa6ZjcAKjeqAscL.svg)](https://asciinema.org/a/Oa8NvN7dRnEa6ZjcAKjeqAscL)
+
+### Brain-gcd:
+
+[![asciicast](https://asciinema.org/a/qEddsNnMcuQhsCVBVB6d4zPFU.svg)](https://asciinema.org/a/qEddsNnMcuQhsCVBVB6d4zPFU)
