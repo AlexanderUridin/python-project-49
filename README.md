@@ -2,7 +2,34 @@
 [![Actions Status](https://github.com/AlexanderUridin/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AlexanderUridin/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c66a3383368b8cc29076/maintainability)](https://codeclimate.com/github/AlexanderUridin/python-project-49/maintainability)
 
-# Brain Games
+# Brain Games Project
+
+Brain Games is a set of five console games based on popular mobile brain training apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again. Games:
+
+• Brain-even - you need to determine the parity of the number.
+
+• Brain-calc - arithmetic expressions to be calculated.
+
+• Brain-gcd - you need to calculate and output the greatest common divisor of these numbers.
+
+• Brain-simple - you need to determine is a number prime or not.
+
+• Brain progression - search for missing numbers in a sequence of numbers.
+
+### Minimum requirements:
+
+```
+Python 3.10+
+```
+
+### Installation guide:
+
+```
+git clone git@github.com:AlexanderUridin/python-project-49.git
+cd python-project-49/
+install poetry
+make install
+```
 
 ## Game demonstrations:
 
