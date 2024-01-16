@@ -1,8 +1,13 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Brain Games is a set of five console games based on popular mobile brain training apps."
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+authors = ["Alexander Uridin <a89154850307@gmail.com>"]
+repository = "https://github.com/AlexanderUridin/python-project-49"
 
 packages = [
   { include = "brain_games" },
