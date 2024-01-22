@@ -1,6 +1,6 @@
 import random
 
-RULE = 'What number is missing in the progression?'
+GAME_RULE = 'What number is missing in the progression?'
 
 
 def get_progression():
@@ -14,7 +14,7 @@ def get_progression():
     return progression
 
 
-def get_content():
+def get_game():
     progression = get_progression()
     last_index = len(progression) - 1
     random_index = random.randint(0, last_index)

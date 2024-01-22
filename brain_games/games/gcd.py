@@ -1,9 +1,9 @@
 import random
 
-RULE = 'Find the greatest common divisor of given numbers.'
+GAME_RULE = 'Find the greatest common divisor of given numbers.'
 
 
-def get_content():
+def get_game():
 
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
