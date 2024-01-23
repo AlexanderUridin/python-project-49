@@ -9,9 +9,9 @@ def is_prime(number):
         if (number % z == 0):
             k = k + 1
     if (k <= 0):
-        return False
-    else:
         return True
+    else:
+        return False
 
 
 def get_game():
